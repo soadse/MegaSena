@@ -14,7 +14,7 @@ function play(){
     ordena.sort((a,b)=> a-b)
     var remove = [...new Set(ordena)]
     var stringSemColchetes = remove.join(' - ');
-    ball01.innerText = remove[0]
+    ball01.innerText = remove[0] + 1
     ball02.innerText = remove[1]
     ball03.innerText = remove[2]
     ball04.innerText = remove[3]
