@@ -114,9 +114,15 @@ header {
         color: green;
     }
 }
-#aposta > img {
-    width: 50%;
+#aposta > #imgLink {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 50px;
+}
+#aposta > #imgLink > img {
+    width: 50%;
 }
 /* ================= */
 footer {
