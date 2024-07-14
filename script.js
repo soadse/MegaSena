@@ -15,11 +15,11 @@ function play(){
     var remove = [...new Set(ordena)]
     var stringSemColchetes = remove.join(' - ');
     ball01.innerText = remove[0] + 1
-    ball02.innerText = remove[1]
-    ball03.innerText = remove[2]
-    ball04.innerText = remove[3]
-    ball05.innerText = remove[4]
-    ball06.innerText = remove[5]
+    ball02.innerText = remove[1] + 1
+    ball03.innerText = remove[2] + 1
+    ball04.innerText = remove[3] + 1
+    ball05.innerText = remove[4] + 1
+    ball06.innerText = remove[5] + 1
 }
 
 console.log(stringSemColchetes)
