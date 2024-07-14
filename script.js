@@ -7,8 +7,8 @@ var ball06 = window.document.querySelector('#bola06')
 
 function play(){
     var soma = []
-    while (soma.length < 7){
-        soma.push(Math.floor(Math.random() * 100));
+    while (soma.length < 8){
+        soma.push(Math.floor(Math.random() * 60));
     }
     var ordena = soma
     ordena.sort((a,b)=> a-b)
