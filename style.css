@@ -23,6 +23,8 @@ header {
 h1 {
     text-align: center;
     margin-top: 20px;
+    font-weight: lighter;
+    color: var(--color02);
 }
 section {
     display: flex;
