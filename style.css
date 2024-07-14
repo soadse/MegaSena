@@ -49,6 +49,8 @@ section > #conterBolas > .bolas {
     margin: 10px;
     background-image: radial-gradient(white, lightgray);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.329);
+    font-weight: bolder;
+    font-size: 1.5em;
 }
 section > button {
     width: 50%;
